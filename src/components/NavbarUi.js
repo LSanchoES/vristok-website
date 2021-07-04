@@ -7,7 +7,6 @@ export const NavbarUi = () => {
                 <li>Twitch</li>
                 <li>Música</li>
                 <li>Social</li>
-                <li>Contacto</li>
                 <li>Notifícame</li>
             </ul>
         </nav>

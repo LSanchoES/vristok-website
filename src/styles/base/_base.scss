@@ -1,0 +1,82 @@
+* {
+	font-family:monospace;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+html,
+body {
+	height: 100vh;
+	width: 100vw;
+	scroll-behavior: smooth; //Volver smooth al top cuando scrolleamos
+	background-color:$light-gray;
+	margin: 0px;
+	padding: 0px;
+}
+
+main {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+//STATES
+.active {
+	color: $tertiary !important;
+}
+.inactive {
+	color: red!important;
+}
+.active-hour{
+	background-color: green  !important;
+	font-weight: bold !important;  
+	
+	label{
+		margin-right: 3rem !important;
+	}
+}
+.active-hour-button{
+	display: none !important;
+}
+.invalid{
+	border: 2px solid red;
+}
+
+
+//SweetAlert
+.swal2-icon{
+	overflow: hidden !important;
+}
+//SCROLLBAR
+
+
+/* width */
+::-webkit-scrollbar {
+
+	width: 10px;
+	border: 4px solid $primary;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: $pentakill;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: $primary;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: $tertiary;
+}
+
+@media(max-width:650px){
+	::-webkit-scrollbar {
+
+		width: 1px;
+		border: transparent;
+	}
+}

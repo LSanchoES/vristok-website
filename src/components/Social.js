@@ -2,8 +2,8 @@ import React from "react";
 
 export const Social = () => {
 	return (
-		<div id="social-index" className="social__container">
-			<h1>Mis redes sociales!</h1>
+		<div  className="social__container">
+			<h1 id="social-index"> Mis redes sociales!</h1>
 			<div className="social__links">
 				<a
 					href="https://www.youtube.com/channel/UC-ysJS9-nifzJRx6jAgZENA/featured"

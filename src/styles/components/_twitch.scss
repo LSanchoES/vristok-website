@@ -11,13 +11,16 @@
     color: $dark-gray;
     padding: 1rem;
     h1{
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
     }
     iframe{
 
-        width: 95% !important;
-        margin-right: 2vw;
+        width: 90vw !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
         height: 100vh;
         border-radius: 12px;
+        margin-bottom: 1rem;
     }
 }

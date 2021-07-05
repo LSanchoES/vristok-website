@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: url(../../assets/planets.jpg);
     background-position: initial;
@@ -19,7 +19,12 @@
         border-radius: 12px;
         box-shadow: -2px -2px 10px $light-gray inset;
         filter: blur(0.3px);
-        cursor:alias;
+        cursor:default;
+        transition: all 500ms;
+        &:hover{
+            box-shadow: -2px -2px 100px $light-gray inset;
+            padding: 2rem;
+        }
 
     }
     @keyframes glow {

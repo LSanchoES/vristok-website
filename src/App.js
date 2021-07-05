@@ -3,6 +3,7 @@ import { NavbarUi } from "./components/NavbarUi";
 import {Twitch} from "./components/Twitch"
 import {Musica} from "./components/Musica"
 import {Social} from "./components/Social"
+import {Registrate} from "./components/Registrate"
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<Twitch />
 			<Musica />
 			<Social />
+			<Registrate />
 			
 		</>
 	);

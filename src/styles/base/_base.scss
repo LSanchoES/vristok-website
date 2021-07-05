@@ -21,29 +21,6 @@ main {
 }
 
 
-//STATES
-.active {
-	color: $tertiary !important;
-}
-.inactive {
-	color: red!important;
-}
-.active-hour{
-	background-color: green  !important;
-	font-weight: bold !important;  
-	
-	label{
-		margin-right: 3rem !important;
-	}
-}
-.active-hour-button{
-	display: none !important;
-}
-.invalid{
-	border: 2px solid red;
-}
-
-
 //SweetAlert
 .swal2-icon{
 	overflow: hidden !important;
@@ -71,12 +48,4 @@ main {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
 	background: $tertiary;
-}
-
-@media(max-width:650px){
-	::-webkit-scrollbar {
-
-		width: 1px;
-		border: transparent;
-	}
 }

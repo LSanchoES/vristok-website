@@ -6,8 +6,8 @@ export const Twitch = () => {
            
             <h1> Directos diarios! </h1>
             <iframe src="https://player.twitch.tv/?channel=vristok&parent=http://localhost:3000/"
-            frameborder="5" 
-            allowfullscreen="true"
+            frameBorder="5" 
+            allowFullScreen={true}
             scrolling="no"
             ></iframe>
         </div>

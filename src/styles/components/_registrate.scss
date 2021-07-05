@@ -18,7 +18,7 @@
     }
 }
 
-.registrate__form{
+#mc_embed_signup{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -27,48 +27,49 @@
     border: 2px solid $light-gray;
     border-radius: 12px;
     box-shadow: 0px 0px 5px $white-styled;
-    margin-top: 1rem;
     padding: 2rem;
     width: 50vw;
     background-color: $black-gentle;
+    margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
     form{
         display: flex;
         flex-direction: column;
         align-items: center;
-        label{
-            color: $light-gray;
-            font-size: 2rem;
-            padding: 2rem;
-        }
-        input{
-            margin: 1rem;
-            height: 4vh;
-            width: 40vw;
-            outline: none;
-            border-radius: 12px;
-            padding: 1rem;
-            border: none;
-        }
-        input[type="submit"]{
-            background-color: $pentakill;
-            color: $light-gray;
-            font-size: 2rem;
-            font-weight: bold;
-            box-shadow: -2px -2px 15px $dark-gray inset;
-            transition: all 500ms;
-            margin-top: 2rem;
-            padding: 1rem;
-            height: 20vh;
-            width: 40vw;
-
-            &:hover{
-                cursor: pointer;
-                box-shadow: 0px 0px 1px $light-gray inset;
-                transform: scale(1.05);
-            }
-        }
+        justify-content: center;
     }
+}
+.registrate__input{
+    
+        margin: 1rem;
+        height: 4vh;
+        width: 40vw;
+        outline: none;
+        border-radius: 12px;
+        padding: 1rem;
+        border: none;
+    
+}
+.registrate__submit{
+    
+        background-color: $pentakill;
+        color: $light-gray;
+        font-size: 2rem;
+        font-weight: bold;
+        box-shadow: -2px -2px 15px $dark-gray inset;
+        transition: all 500ms;
+        margin-top: 2rem;
+        padding: 1rem;
+        height: 15vh;
+        width: 100%;
+
+        &:hover{
+            cursor: pointer;
+            box-shadow: 0px 0px 1px $light-gray inset;
+            transform: scale(1.05);
+        }
 }
 @media (max-width: 600px) {
    
@@ -80,23 +81,11 @@
         }
      
     }
-    .registrate__form{
+    #mc_embed_signup{
         width: 70vw;
-        form{
-            input[type="submit"]{
-                font-size: 2ch;
-            }
-        }
-        
+    }
+    .registrate__submit{
+        font-size: 2ch;
     }
 
 }
-
-@media (max-width: 350px) {
-   
-    .registrate__form{
-        
-        margin-right: auto;
-        margin-left: auto;
-        }
-    }

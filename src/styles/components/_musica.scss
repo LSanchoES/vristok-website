@@ -9,10 +9,12 @@
     box-shadow: 0px 2px 19px $black-gentle;
     background-color: $dark-gray;
     color: $white-styled;
-    padding: 1rem;
+
     h1{
         margin-bottom: 3rem;
         margin-top: 3rem;
+        font-size: 2rem;
+        padding: 1rem;
     }
 }
 .musica__frames{
@@ -49,4 +51,18 @@
     .musica__soundcloud{
         width: 90%;}
     
+}
+@media (max-width: 600px) {
+   
+    .musica__frames{
+        
+        margin-right: 100px !important;
+        margin-left: 0px !important;
+    }
+    .musica__container{
+        h1{
+            margin-right: auto !important;
+        }
+    }
+
 }

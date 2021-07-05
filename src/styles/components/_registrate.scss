@@ -70,3 +70,33 @@
         }
     }
 }
+@media (max-width: 600px) {
+   
+    .registrate__container{
+        
+        margin-left: 0;
+        h1{
+            margin-left: none
+        }
+     
+    }
+    .registrate__form{
+        width: 70vw;
+        form{
+            input[type="submit"]{
+                font-size: 2ch;
+            }
+        }
+        
+    }
+
+}
+
+@media (max-width: 350px) {
+   
+    .registrate__form{
+        
+        margin-right: auto;
+        margin-left: auto;
+        }
+    }

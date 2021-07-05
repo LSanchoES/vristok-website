@@ -86,3 +86,9 @@
         display: none;
     }
 }
+@media (max-width: 400px) {
+    .navbarUi__container-small{
+        font-size: 2rem;
+    }
+
+}

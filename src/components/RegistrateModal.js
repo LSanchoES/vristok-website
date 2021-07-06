@@ -1,12 +1,14 @@
 import React from "react";
 import Swal from "sweetalert2";
 
-export const Registrate = () => {
+export const RegistrateModal = (props) => {
+
+
+	console.log(props)
+
 	const handleSubmit = (e) => {
-		
 
 		let email = e.target[0].value;
-		console.log(email);
 
 		//Validation Alert
 		if (email.length > 10) {
@@ -28,11 +30,11 @@ export const Registrate = () => {
 		//DB send mail
 	};
 	return (
-		<div className="registrate__container">
+		<div className="registrate__container-modal">
 			<h1 id="registrate-index">
 				Registra tu email para recibir todas las notificaciones!
 			</h1>
-			<div id="mc_embed_signup">
+			<div id="mc_embed_signup ">
 				<form
 					action="https://lsancho.us6.list-manage.com/subscribe/post?u=71a58a6e738704a94ffc2ab89&id=cfcab31bbd"
 					method="post"
@@ -81,7 +83,7 @@ export const Registrate = () => {
 								defaultValue="Subscribe"
 								name="subscribe"
 								id="mc-embedded-subscribe"
-								className="button registrate__submit"
+								className="button registrate__submit modal-button"
 								value="Notificame!"
 							/>
 						</div>

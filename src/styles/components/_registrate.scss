@@ -29,6 +29,7 @@
     border-radius: 12px;
     overflow: hidden;
     z-index: 15;
+    height: 80%;
 
     h1{
         font-size: 2rem;
@@ -52,7 +53,7 @@
 
 }
 .ReactModal__Content{
-    background-color: $quaternary !important;
+    background-color: $black-gentle !important;
     box-shadow: 0px 0px 12px $dark-gray inset !important;
     overflow: hidden !important;
     
@@ -68,13 +69,13 @@
     border-radius: 12px;
     box-shadow: 0px 0px 5px $white-styled;
     padding: 2rem;
-    width: 50vw;
     background-color: $black-gentle;
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-right: auto;
     margin-left: auto;
     overflow: hidden;
+    min-height: 60vh;
 
     form{
         display: flex;
@@ -82,6 +83,7 @@
         align-items: center;
         justify-content: center;
         overflow: hidden;
+        height: 50%;
 
     }
 }
@@ -123,6 +125,10 @@
 .registrate__exit{
     cursor: pointer;
     transition: all 300ms;
+    display: flex;
+    justify-content:flex-end;
+    color: $secondary;
+    
     &:hover{
         color: red;
     }

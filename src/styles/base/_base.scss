@@ -2,7 +2,7 @@
 	font-family:monospace;
 	margin: 0px;
 	padding: 0px;
-	overflow-x: hidden;
+	
 }
 html,
 body {
@@ -12,12 +12,8 @@ body {
 	background-color:$light-gray;
 	margin: 0px;
 	padding: 0px;
-}
+	overflow-x: hidden;
 
-main {
-	width: 100%;
-	margin: 0px;
-	padding: 0px;
 }
 
 

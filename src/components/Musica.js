@@ -13,6 +13,7 @@ export const Musica = () => {
 						frameBorder="0"
 						allowtransparency="true"
 						allow="encrypted-media"
+						title="spotify"
 					></iframe>
 				</div>
 				<div className="musica__soundcloud">
@@ -23,6 +24,7 @@ export const Musica = () => {
 						frameBorder="no"
 						allow="autoplay"
 						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1202388724&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+						title="soundcloud"
 					></iframe>
 				</div>
 			</div>

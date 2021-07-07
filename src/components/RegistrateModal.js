@@ -80,7 +80,6 @@ export const RegistrateModal = (props) => {
 						<div className="clear ">
 							<input
 								type="submit"
-								defaultValue="Subscribe"
 								name="subscribe"
 								id="mc-embedded-subscribe"
 								className="button registrate__submit modal-button"

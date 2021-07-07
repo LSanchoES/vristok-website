@@ -16,9 +16,6 @@ export const MainContent = () => {
 
 	const [isOpen, setIsOpen] = useState(false)
 
-	const openModal = () =>{
-		setIsOpen(true)
-	}
 	const closeModal = () =>{
 		setIsOpen(false)
 	}
@@ -37,11 +34,14 @@ export const MainContent = () => {
 	return (
 		<>
       		<Modal
-      		  isOpen={isOpen}
-      		  onRequestClose={closeModal}
-      		  contentLabel="Quieres recibir notificaciones?"
+      		  	isOpen={isOpen}
+      		  	onRequestClose={closeModal}
+      		  	contentLabel="Quieres recibir notificaciones?"
+				ariaHideApp={false}
       		>
-				<h1 className="registrate__exit" onClick={closeModal}><i class="fas fa-times"></i></h1>
+				<h1 className="registrate__exit" onClick={closeModal}>
+					<i className="fas fa-times"></i>
+				</h1>
 			<RegistrateModal setter={setIsOpen}/>
 
 	  		</Modal>

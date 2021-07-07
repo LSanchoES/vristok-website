@@ -9,6 +9,7 @@ export const Twitch = () => {
             frameBorder="5" 
             allowFullScreen={true}
             scrolling="no"
+            title="twitch"
             ></iframe>
         </div>
     )

@@ -72,13 +72,11 @@ export const Registrate = () => {
 								type="text"
 								name="b_71a58a6e738704a94ffc2ab89_cfcab31bbd"
 								tabIndex={-1}
-								defaultValue
 							/>
 						</div>
 						<div className="clear ">
 							<input
 								type="submit"
-								defaultValue="Subscribe"
 								name="subscribe"
 								id="mc-embedded-subscribe"
 								className="button registrate__submit"

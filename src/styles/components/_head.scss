@@ -1,3 +1,11 @@
+@keyframes bgmove{
+    0%{
+        background-position: 0px 0px;
+    }
+    75%{
+        background-position: -200px -200px;
+    }
+}
 .head__container{
     display: flex;
     flex-wrap: wrap;
@@ -8,7 +16,10 @@
     background-image: url(../../assets/planets.jpg);
     background-position: initial;
     background-repeat: no-repeat, repeat;
-    background-position: top;
+    background-position: -200px -200px;
+    animation: bgmove 60s linear;
+    transition: all 500ms;
+    
     h1{
         font-size: 15vw;
         padding: 1rem;

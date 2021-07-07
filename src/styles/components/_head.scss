@@ -13,12 +13,13 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-image: url(../../assets/planets.jpg);
+    // background-image: url(../../assets/planets.jpg);
     background-position: initial;
     background-repeat: no-repeat, repeat;
     background-position: -200px -200px;
     animation: bgmove 60s linear;
     transition: all 500ms;
+
     
     h1{
         font-size: 15vw;

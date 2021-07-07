@@ -25,7 +25,7 @@
     justify-content: center;
     align-items: center;
     background-color: $dark-gray;
-    box-shadow: 2px 2px 15px $black-gentle;
+    box-shadow: 2px 2px 15px $black-gentle inset;
     border-radius: 12px;
     overflow: hidden;
     z-index: 15;
@@ -38,14 +38,15 @@
         margin-top: 3rem;
         margin-bottom: 3rem;
     }
+
 }
+
 .ReactModalPortal{
     position: fixed !important;
     z-index: 15 !important;
     background-color: $quaternary !important;
     box-shadow: 0px 0px 12px $dark-gray inset !important;
     overflow: hidden !important;
-
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -56,6 +57,7 @@
     background-color: $black-gentle !important;
     box-shadow: 0px 0px 12px $dark-gray inset !important;
     overflow: hidden !important;
+    height: 100% !important;
     
   
 }
@@ -68,16 +70,17 @@
     border: 2px solid $light-gray;
     border-radius: 12px;
     box-shadow: 0px 0px 5px $white-styled;
-    padding: 2rem;
+    padding: 1rem;
     background-image: url(https://media4.giphy.com/media/xTk9ZwzuWiyJ8n5Vzq/200.webp?cid=ecf05e47hwyklul9kucao1cjc90gcgyyux9bwwjvpsnret91&rid=200.webp&ct=g);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     margin-right: auto;
     margin-left: auto;
     overflow: hidden;
     min-height: 60vh;
+
 
     form{
         display: flex;
@@ -94,6 +97,8 @@
     flex-direction: column !important;
     justify-content: center !important;
     align-items:  center !important;
+}
+.mc-field-group{
 }
 .registrate__input{
     

@@ -5,7 +5,7 @@ export const Twitch = () => {
         <div id= "twitch-index" className="twitch__container"> 
            
             <h1> Directos diarios! </h1>
-            <iframe src="https://player.twitch.tv/?channel=vristok&parent=http://localhost/"
+            <iframe src="https://player.twitch.tv/?channel=vristok&parent=https://vristok-website.vercel.app//"
             frameBorder="5" 
             allowFullScreen={true}
             scrolling="no"
